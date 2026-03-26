@@ -3,7 +3,7 @@ cask "relune" do
   name "relune"
   desc "Schema visualization and analysis for developers"
   homepage "https://github.com/mhiro2/relune"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "relune" do
     on_intel do
       url "https://github.com/mhiro2/relune/releases/download/v#{version}/relune_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/mhiro2/relune/"
-      sha256 "cbf066f45e8c88f9a3f85b6532d06a37e5650fe2f831496cfb345f7309565ae8"
+      sha256 "6cc6d2545042b87117e098f7995d56e0053a6a248fc947f4d341bbdf953f1c4c"
     end
     on_arm do
       url "https://github.com/mhiro2/relune/releases/download/v#{version}/relune_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/mhiro2/relune/"
-      sha256 "bb0990a4f0ab91f03d9b4497034e604552012d065e5c31235b06f2db548b8276"
+      sha256 "093abc0a836cc00acb58e3ddd279e35f7f9691af57fdfd24ea6e048f059b5704"
     end
   end
 
